@@ -1,0 +1,103 @@
+@media screen and (max-width: 767px) {
+
+    .main-logo,.customaer-locetion,.customer-help,.account-login{
+        display: none;
+    }
+
+    .sidebar{
+        margin: 0 auto;
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        z-index: 99;
+        display: none;
+        background-color: rgba(0, 0, 0, .2);
+    }
+    .sidebar .inner-section{
+        width: 80%;
+    }
+    
+    .content{
+        width: 100% !important;
+        margin: 0;
+    }
+
+    /**/
+
+    .offer-item{
+        padding: .4rem;
+    }
+
+    .offer-item .inner-section{
+        display: block;
+    }
+
+    .offer-item .img-block{
+        width: 100%;
+    }
+
+    .offer-item .product-block{
+        width: 100%;
+    }
+    .client .inner-section{
+        display: block;
+    }
+
+    /**/
+    .app-link {
+        text-align: center;
+    }
+
+    /**/
+
+    /**/
+    .footerLeft{
+        border-right: none;
+        text-align: center;
+    }
+
+    .footerMenu{
+        display: block;
+    }
+    .footerMenu ul{
+        text-align: center;
+        padding: 0;
+    }
+
+    .footerRight {
+        text-align: center;
+    }
+
+    /*--if screen size has 768 or mobile display then--*/
+    .buttom-menu{
+        background-color: #ff686e;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 567px) {
+
+    .banner-section .inner-section{
+        margin-top: 3.8rem;
+    }
+    .bennar-txt h1{
+        font-size: 1.4rem;
+    }
+    .banner-section .search-form{
+        width: 90%;
+
+    }
+
+    /**/
+    .categories-section .inner-section{
+        padding: 1rem .4rem;
+    }
+
+    /**/
+    .footerRight .app-link img {
+        width: 140px;
+    }
+}
