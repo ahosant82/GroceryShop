@@ -104,4 +104,13 @@ $(document).ready(function(){
     });
 });
 
+//buttom menu js
+// startShopping btn
+$(document).ready(function(){
+    $(".startShopping").click(function(){
+      $('.sidebar').toggle(400);
+    });
+});
+
+
 
